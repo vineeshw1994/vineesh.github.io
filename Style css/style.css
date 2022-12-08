@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#head{
+    background-color: rgb(110, 173, 240);
+}
+#hovr:hover{
+    background-color: rgb(184, 214, 251);
+    border-radius: 10px;
+    transition: .5s;
+}
+#head{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.myname{
+    cursor: pointer;
+}
+
+#dboca{
+    color: rgb(23, 23, 240);
+}
+#edu{
+    border: none;
+}
+.form-control{
+    outline: none;
+    border: 1px solid rgb(143, 143, 252);
+}
+#details{
+    padding-top: 2rem;
+    padding-left: 4.5rem;
+}
+#resume{
+    padding-left: 2.3rem;
+}
+#shares{
+    padding: 5px;
+    transition: transform .2s;
+    width: 40px;
+    height: 35px;
+
+}
+#shares:hover{
+    transform: scale(1.5);
+}
+
+/*<i class="fa-solid fa-graduation-cap display-2 text-secondary" id="bcom"></i>
+<i class="fa-solid fa-graduation-cap display-2 text-success" id="mcom"></i>
+<i class="fa-solid fa-graduation-cap display-2 " id="dboca"></i>
